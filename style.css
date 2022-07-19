@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800&family=Poppins:ital,wght@0,200;0,300;1,200;1,300&display=swap");
+
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: Orbitron;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 100px;
+  height: 80px;
+  align-items: center;
+}
+.brand-logo {
+  /* background-color: aquamarine; */
+  /* width: 350px; */
+  flex-grow: 1;
+}
+.brand-logo img {
+  height: 40px;
+}
+.options {
+  /* background-color: blue; */
+  flex-grow: 2;
+}
+.list {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+.list-item {
+  font-size: 18px;
+  font-weight: 600;
+}
+.list-item:hover {
+  font-weight: 800;
+  font-size: 20px;
+  box-sizing: border-box;
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+}
+
+.button-group {
+  /* background-color: brown; */
+  flex-grow: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-container {
+  position: relative;
+  display: flex;
+  margin: 0px 100px;
+}
+
+.search-icon {
+  size: 50px;
+  padding: 0px 20px;
+}
+
+button {
+  background-color: white;
+  padding: 5px 30px;
+  height: 30px;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.hero-container-left {
+  width: 75vw;
+  /* flex-basis: 50%; */
+  /* align-items: center; */
+  flex-grow: 1;
+}
+
+.hero-img {
+  position: relative;
+  /* height: 550px; */
+}
+.hero-img > img {
+  height: 60vh;
+  margin-top: 100px;
+}
+
+.square > img {
+  position: absolute;
+  height: 40vh;
+  margin-top: 300px;
+  margin-left: 120px;
+}
+
+
+.hero-container-right {
+  /* width: 50vw; */
+  /* flex-basis: 50%; */
+  flex-grow: 2;
+}
+
+.decor {
+  height: 150px;
+}
+.globe img {
+  position: absolute;
+  margin-left: 10%;
+  height: 10%;
+}
+.star img {
+  position: absolute;
+  margin-left: 45%;
+  margin-top: 5%;
+  height: 10%;
+}
+.star2 img{
+  position: absolute;
+  margin-left: 2%;
+  margin-top: 35%;
+  height: 8%;
+}
+
+.hero-heading {
+  font-size: 50px;
+}
+.hero-description {
+  font-family: Poppins;
+  height: 150px;
+  margin: 30px 0px;
+  padding: 20px 0px;
+  box-sizing: border-box;
+}
+.below-description {
+  text-align: center;
+  /* background-color: blue; */
+  height: 50px;
+}
+.email {
+  height: 30px;
+  padding-bottom: 50px;
+}
+
+.button-email {
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 7px;
+  font-weight: 600;
+  font-size: 17px;
+  padding: 3px 20px;
+}
+
+.button-join {
+  background-color: black;
+  border: 2px solid black;
+  border-radius: 7px;
+  color: white;
+  font-size: 17px;
+  padding: 3px 20px;
+  margin-left: 10px;
+}
+
+.contact-heading {
+  font-size: 20px;
+  font-family: "Poppins";
+  font-weight: 400;
+}
+
+.icons span img {
+  height: 30px;
+  margin: 10px;
+}
