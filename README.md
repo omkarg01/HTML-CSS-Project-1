@@ -5,7 +5,7 @@
 ![hitesh choudhary](https://img.shields.io/badge/Hitesh--Choudhary-Full--stack--JS--bootcamp-red)
 ![HTML & CSS](https://img.shields.io/badge/HTML-CSS-orange)
 
-## Project 1 [Live Link](https://62e2b71c8691ce4344ed9e4d--startling-raindrop-9e548a.netlify.app/)
+## Project 1 [Live Link](https://street-style-og.netlify.app)
 
 -   Skills Gained in this project
     -   Learned to positioning the elements.
