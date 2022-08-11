@@ -6,11 +6,12 @@
   font-family: Orbitron;
 }
 
+
 .navbar-container {
   display: flex;
   justify-content: space-between;
   margin: 20px 100px;
-  height: 80px;
+  /* height: 80px; */
   align-items: center;
 }
 .brand-logo {
@@ -68,6 +69,12 @@ button {
   border-radius: 10px;
   font-weight: 600;
   font-size: 15px;
+}
+
+.toggle-btn{
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  display: none;
 }
 
 .hero-container-left {
@@ -132,6 +139,7 @@ button {
   padding: 20px 0px;
   box-sizing: border-box;
 }
+
 .below-description {
   text-align: center;
   /* background-color: blue; */
@@ -170,4 +178,61 @@ button {
 .icons span img {
   height: 30px;
   margin: 10px;
+}
+
+@media (max-width: 425px) {
+  .navbar-container{
+    display: flex;
+    justify-content: space-between;
+  }
+  .brand-logo {
+    margin-right: 10rem;
+  }
+
+  .options , .button-group{
+    display: none;
+  }
+
+  .toggle-btn{
+    display: inline;
+  }
+
+  .hero-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero-img > img{
+    margin-top: 3rem;
+  }
+
+  .square > img{
+    margin-top: 16rem;
+    margin-left: 7rem;
+  }
+
+  .hero-container-right{
+    margin-top: 5rem;
+    margin-left: 4rem;
+    /* padding-inline: 5rem; */
+    /* background-color: blue; */
+    width: 100vw;
+  }
+
+  .globe > img{
+    height: 4rem;
+  }
+  .star > img{
+    display: block;
+    margin-top: 4rem;
+    margin-left: 18rem;
+    height: 4rem;
+  }
+
+  .star2 {
+    display: none;
+  }
+  
 }
